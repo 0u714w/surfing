@@ -5,6 +5,12 @@
                     }
                 }
                 
+                @media (max-width:667px) {
+                    img {
+                        position: relative;
+                    }
+                }
+                
                 .header {
                     border-style: solid;
                     height: 200px;
@@ -17,14 +23,13 @@
                     margin-top: 75px;
                 }
                 
-                body {}
-                
                 .surfing {
                     display: flex;
                     flex-direction: column;
                     flex-flow: row wrap;
                     padding: 10px;
                     min-width: 667px;
+                    position: relative;
                 }
                 
                 .surfing-image {
