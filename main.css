@@ -1,0 +1,37 @@
+                @media (min-width:667px) {
+                    header {
+                        float: left;
+                        position: relative;
+                    }
+                }
+                
+                .header {
+                    border-style: solid;
+                    height: 200px;
+                    border-radius: 20px;
+                    margin: auto;
+                }
+                
+                header div p {
+                    text-align: center;
+                    margin-top: 75px;
+                }
+                
+                body {}
+                
+                .surfing {
+                    display: flex;
+                    flex-direction: column;
+                    flex-flow: row wrap;
+                    padding: 10px;
+                    min-width: 667px;
+                }
+                
+                .surfing-image {
+                    height: 250px;
+                    flex: auto;
+                }
+                
+                img {
+                    border-radius: 20px;
+                }
