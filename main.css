@@ -3,11 +3,10 @@
                         float: left;
                         position: relative;
                     }
-                }
-                
-                @media (max-width:667px) {
-                    img {
-                        position: relative;
+                    @media (max-width:667px) {
+                        .surfing {
+                            max-width: 100%;
+                        }
                     }
                 }
                 
@@ -28,7 +27,6 @@
                     flex-direction: column;
                     flex-flow: row wrap;
                     padding: 10px;
-                    min-width: 667px;
                     position: relative;
                 }
                 
