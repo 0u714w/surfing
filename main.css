@@ -1,13 +1,17 @@
                 @media (min-width:667px) {
-                    header {
+                    .header {
                         float: left;
                         position: relative;
+                        width: 100px;
                     }
                 }
                 
                 @media (max-width:667px) {
                     img {
                         width: calc(100% - 150px);
+                    }
+                    body {
+                        width: 100%;
                     }
                 }
                 
